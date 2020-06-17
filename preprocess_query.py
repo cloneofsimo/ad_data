@@ -18,9 +18,9 @@ else:
 
 if int(data["age"]) >= 50:
     cmd_string = cmd_string.replace("YYY", "chk_3")
-if int(data["age"]) > 20:
+if int(data["age"]) >= 20:
     cmd_string = cmd_string.replace("YYY", "chk_1")
-if int(data["age"]) > 10:
+if int(data["age"]) >= 0:
     cmd_string = cmd_string.replace("YYY", "chk_2")
 
 print(cmd_string)
